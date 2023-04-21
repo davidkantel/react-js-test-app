@@ -1,0 +1,42 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: rgb(239, 218, 165);
+}
+.nav{
+    display: flex;
+    align-items: center;
+    background-color: blueviolet;
+    height: 60px;
+    align-items: center;
+                
+}
+.nav a{
+    color: white;
+    text-decoration: none;
+    margin: 30px 30px;
+    
+}
+
+.myfooter{
+    background-color: rgb(47, 42, 42);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    height: 100vh;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    
+}
+.box a{
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+}
+.box h4{
+    color: rgb(255, 255, 255);
+}
+span{
+    color: #b13434;
+}
